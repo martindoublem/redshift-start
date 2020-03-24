@@ -12,7 +12,7 @@ def location():
     }
     result = requests.get(api_url, headers=headers).json()
     lat, lon = result['lat'], result['lon']
-    return lat, lon
+    return "%s:%s" % (lat, lon)
 
 
 if __name__ == "__main__":

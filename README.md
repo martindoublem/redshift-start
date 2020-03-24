@@ -13,6 +13,6 @@ Once this is done, the script starts redshift with the right coordinates
 This script can be run at boot in your config file for i3
 
 ## Task list
-- [ ] bash script
-- [ ] python script
-- [ ] test on my system
+- [X] bash script
+- [X] python script
+- [X] test on my system
