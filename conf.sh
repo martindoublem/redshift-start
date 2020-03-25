@@ -12,5 +12,5 @@ do
   sleep 5
   connection=$(validateConnection)
 done
-python write_conf.py
-redshift
+loc=$(python location.py)
+redshift -l $loc
