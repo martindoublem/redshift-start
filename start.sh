@@ -13,4 +13,4 @@ do
   connection=$(validateConnection)
 done
 python write_conf.py
-redshift
+redshiftgui --min
